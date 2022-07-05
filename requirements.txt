@@ -1,0 +1,5 @@
+geopandas
+streamlit
+streamlit-folium
+geopy
+s3fs
