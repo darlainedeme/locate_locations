@@ -32,8 +32,7 @@ if uploaded_file is not None:
         resp = requests.request("Get",url)
         if (resp.status_code != 404) :
             strRes = resp.text
+            st.write(i)
+            st.write(strRes)
+            st.write('-------')
             root = ET.fromstring(strRes)
-    
-        st.write(i)
-        st.write(location)
-        st.write('-------')
